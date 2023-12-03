@@ -58,7 +58,7 @@ import (
 	"github.com/cockroachdb/errors"
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft/tracker"
 )
 
 func TestReplicateQueueRebalance(t *testing.T) {

@@ -30,7 +30,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/timeutil"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
-	"go.etcd.io/raft/v3/raftpb"
+	"github.com/Y77CH/raft/raftpb"
 )
 
 // FirstNodeID is the NodeID assigned to the node bootstrapping a new cluster.

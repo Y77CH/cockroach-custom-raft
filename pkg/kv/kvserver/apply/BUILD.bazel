@@ -12,7 +12,7 @@ go_library(
     deps = [
         "//pkg/kv/kvpb",
         "@com_github_cockroachdb_errors//:errors",
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
     ],
 )
 
@@ -28,6 +28,6 @@ go_test(
         "//pkg/kv/kvpb",
         "@com_github_cockroachdb_errors//:errors",
         "@com_github_stretchr_testify//require",
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
     ],
 )

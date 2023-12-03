@@ -24,7 +24,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/log"
 	"github.com/cockroachdb/cockroach/pkg/util/stop"
 	"github.com/cockroachdb/errors"
-	"go.etcd.io/raft/v3"
+	"github.com/Y77CH/raft"
 )
 
 // replica_application_*.go files provide concrete implementations of

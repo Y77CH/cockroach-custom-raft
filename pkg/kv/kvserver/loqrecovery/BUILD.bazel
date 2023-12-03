@@ -47,7 +47,7 @@ go_library(
         "//pkg/util/uuid",
         "@com_github_cockroachdb_errors//:errors",
         "@com_github_cockroachdb_pebble//vfs",
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
         "@org_golang_google_grpc//:go_default_library",
     ],
 )
@@ -114,6 +114,6 @@ go_test(
         "@com_github_cockroachdb_pebble//vfs",
         "@com_github_stretchr_testify//require",
         "@in_gopkg_yaml_v2//:yaml_v2",
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
     ],
 )

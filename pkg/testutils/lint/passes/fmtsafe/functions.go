@@ -115,12 +115,12 @@ var requireConstFmt = map[string]bool{
 	"(*github.com/cockroachdb/cockroach/pkg/kv/kvserver.raftLogger).Fatalf":   true,
 	"(*github.com/cockroachdb/cockroach/pkg/kv/kvserver.raftLogger).Panicf":   true,
 
-	"(go.etcd.io/raft/v3.Logger).Debugf":   true,
-	"(go.etcd.io/raft/v3.Logger).Infof":    true,
-	"(go.etcd.io/raft/v3.Logger).Warningf": true,
-	"(go.etcd.io/raft/v3.Logger).Errorf":   true,
-	"(go.etcd.io/raft/v3.Logger).Fatalf":   true,
-	"(go.etcd.io/raft/v3.Logger).Panicf":   true,
+	"(github.com/Y77CH/raft.Logger).Debugf":   true,
+	"(github.com/Y77CH/raft.Logger).Infof":    true,
+	"(github.com/Y77CH/raft.Logger).Warningf": true,
+	"(github.com/Y77CH/raft.Logger).Errorf":   true,
+	"(github.com/Y77CH/raft.Logger).Fatalf":   true,
+	"(github.com/Y77CH/raft.Logger).Panicf":   true,
 
 	"(google.golang.org/grpc/grpclog.Logger).Infof":    true,
 	"(google.golang.org/grpc/grpclog.Logger).Warningf": true,

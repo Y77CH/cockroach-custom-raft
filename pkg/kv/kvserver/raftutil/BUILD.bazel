@@ -8,8 +8,8 @@ go_library(
     deps = [
         "//pkg/kv/kvpb",
         "//pkg/roachpb",
-        "@io_etcd_go_raft_v3//:raft",
-        "@io_etcd_go_raft_v3//tracker",
+        "@com_github_Y77CH_raft//:raft",
+        "@com_github_Y77CH_raft//tracker",
     ],
 )
 
@@ -19,7 +19,7 @@ go_test(
     embed = [":raftutil"],
     deps = [
         "@com_github_stretchr_testify//require",
-        "@io_etcd_go_raft_v3//:raft",
-        "@io_etcd_go_raft_v3//tracker",
+        "@com_github_Y77CH_raft//:raft",
+        "@com_github_Y77CH_raft//tracker",
     ],
 )

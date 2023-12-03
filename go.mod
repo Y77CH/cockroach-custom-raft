@@ -217,7 +217,8 @@ require (
 	github.com/xdg-go/stringprep v1.0.4
 	github.com/zabawaba99/go-gitignore v0.0.0-20200117185801-39e6bddfb292
 	gitlab.com/golang-commonmark/markdown v0.0.0-20211110145824-bf3e522c626a
-	go.etcd.io/raft/v3 v3.0.0-20230717153924-72a6e6c9f3ee
+	//github.com/Y77CH/raft v3.0.0-20230717153924-72a6e6c9f3ee
+	github.com/Y77CH/raft
 	go.opentelemetry.io/otel v1.3.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.3.0
 	go.opentelemetry.io/otel/exporters/zipkin v1.0.0-RC3

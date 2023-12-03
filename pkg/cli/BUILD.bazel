@@ -258,7 +258,7 @@ go_library(
         "@com_github_spf13_cobra//doc",
         "@com_github_spf13_pflag//:pflag",
         "@in_gopkg_yaml_v2//:yaml_v2",
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
         "@org_golang_google_grpc//:go_default_library",
         "@org_golang_google_grpc//codes",
         "@org_golang_google_grpc//status",

@@ -26,8 +26,8 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/leaktest"
 	"github.com/cockroachdb/cockroach/pkg/util/log"
 	"github.com/cockroachdb/cockroach/pkg/util/timeutil"
-	"go.etcd.io/raft/v3"
-	"go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft"
+	"github.com/Y77CH/raft/tracker"
 )
 
 const firstRangeID = roachpb.RangeID(1)

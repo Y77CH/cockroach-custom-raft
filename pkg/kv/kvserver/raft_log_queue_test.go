@@ -33,8 +33,8 @@ import (
 	"github.com/cockroachdb/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3"
-	"go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft"
+	"github.com/Y77CH/raft/tracker"
 )
 
 func TestShouldTruncate(t *testing.T) {

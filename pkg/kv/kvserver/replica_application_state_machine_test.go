@@ -27,7 +27,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/stop"
 	"github.com/cockroachdb/errors"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3/raftpb"
+	"github.com/Y77CH/raft/raftpb"
 )
 
 // TestReplicaStateMachineChangeReplicas tests the behavior of applying a

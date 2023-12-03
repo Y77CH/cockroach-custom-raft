@@ -37,7 +37,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/timeutil"
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/sstable"
-	"go.etcd.io/raft/v3/raftpb"
+	"github.com/Y77CH/raft/raftpb"
 )
 
 func init() {

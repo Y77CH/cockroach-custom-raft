@@ -41,7 +41,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/tracing"
 	"github.com/cockroachdb/cockroach/pkg/util/uuid"
 	"github.com/cockroachdb/errors"
-	"go.etcd.io/raft/v3/raftpb"
+	"github.com/Y77CH/raft/raftpb"
 	"google.golang.org/grpc"
 )
 

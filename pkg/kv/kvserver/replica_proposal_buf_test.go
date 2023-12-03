@@ -39,9 +39,9 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/timeutil"
 	"github.com/cockroachdb/errors"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3"
-	"go.etcd.io/raft/v3/raftpb"
-	rafttracker "go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft"
+	"github.com/Y77CH/raft/raftpb"
+	rafttracker "github.com/Y77CH/raft/tracker"
 	"golang.org/x/sync/errgroup"
 )
 

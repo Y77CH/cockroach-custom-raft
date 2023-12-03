@@ -71,8 +71,8 @@ import (
 	"github.com/cockroachdb/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	raft "go.etcd.io/raft/v3"
-	"go.etcd.io/raft/v3/raftpb"
+	raft "github.com/Y77CH/raft"
+	"github.com/Y77CH/raft/raftpb"
 	"google.golang.org/grpc"
 )
 

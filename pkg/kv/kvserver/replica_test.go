@@ -81,9 +81,9 @@ import (
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3"
-	"go.etcd.io/raft/v3/raftpb"
-	"go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft"
+	"github.com/Y77CH/raft/raftpb"
+	"github.com/Y77CH/raft/tracker"
 )
 
 // allSpans is a SpanSet that covers *everything* for use in tests that don't

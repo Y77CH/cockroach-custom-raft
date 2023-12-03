@@ -24,6 +24,6 @@ go_library(
         "//pkg/util/timeutil",
         "@com_github_cockroachdb_errors//:errors",
         "@com_github_cockroachdb_pebble//:pebble",
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
     ],
 )

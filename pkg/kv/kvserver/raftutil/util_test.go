@@ -14,8 +14,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3"
-	"go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft"
+	"github.com/Y77CH/raft/tracker"
 )
 
 func TestReplicaIsBehind(t *testing.T) {

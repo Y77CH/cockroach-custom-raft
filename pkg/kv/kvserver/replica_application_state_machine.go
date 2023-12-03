@@ -25,7 +25,7 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/util/timeutil"
 	"github.com/cockroachdb/errors"
 	"github.com/kr/pretty"
-	"go.etcd.io/raft/v3"
+	"github.com/Y77CH/raft"
 )
 
 // replica_application_*.go files provide concrete implementations of

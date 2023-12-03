@@ -13,6 +13,6 @@ go_library(
         "//pkg/kv/kvserver/constraint",
         "//pkg/roachpb",
         "//pkg/settings",
-        "@io_etcd_go_raft_v3//:raft",
+        "@com_github_Y77CH_raft//:raft",
     ],
 )

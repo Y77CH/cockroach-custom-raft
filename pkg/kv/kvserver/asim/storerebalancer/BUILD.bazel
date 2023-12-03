@@ -22,7 +22,7 @@ go_library(
         "//pkg/roachpb",
         "//pkg/util/hlc",
         "@com_github_cockroachdb_errors//:errors",
-        "@io_etcd_go_raft_v3//:raft",
+        "@com_github_Y77CH_raft//:raft",
     ],
 )
 

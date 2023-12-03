@@ -25,7 +25,7 @@ import (
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/redact"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3"
+	"github.com/Y77CH/raft"
 )
 
 func TestReplicaUnavailableError(t *testing.T) {

@@ -40,7 +40,7 @@ go_library(
         "@com_github_cockroachdb_errors//:errors",
         "@com_github_cockroachdb_logtags//:logtags",
         "@com_github_stretchr_testify//require",
-        "@io_etcd_go_raft_v3//:raft",
+        "@com_github_Y77CH_raft//:raft",
     ],
 )
 

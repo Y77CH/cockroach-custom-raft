@@ -96,7 +96,7 @@ import (
 	"github.com/cockroachdb/logtags"
 	"github.com/cockroachdb/redact"
 	prometheusgo "github.com/prometheus/client_model/go"
-	"go.etcd.io/raft/v3"
+	"github.com/Y77CH/raft"
 	"golang.org/x/time/rate"
 )
 

@@ -43,7 +43,7 @@ proto_library(
         "@com_google_protobuf//:duration_proto",
         "@com_google_protobuf//:timestamp_proto",
         "@go_googleapis//google/api:annotations_proto",
-        "@io_etcd_go_raft_v3//raftpb:raftpb_proto",
+        "@com_github_Y77CH_raft//raftpb:raftpb_proto",
     ],
 )
 
@@ -88,7 +88,7 @@ go_proto_library(
         # NB: The grpc-gateway compiler injects a dependency on the descriptor
         # package that Gazelle isn't prepared to deal with.
         "@com_github_golang_protobuf//descriptor:go_default_library_gen",  # keep
-        "@io_etcd_go_raft_v3//raftpb",
+        "@com_github_Y77CH_raft//raftpb",
         "@org_golang_google_genproto//googleapis/api/annotations:go_default_library",
     ],
 )

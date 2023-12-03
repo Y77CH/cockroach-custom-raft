@@ -43,7 +43,7 @@ import (
 	"github.com/cockroachdb/redact"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft/tracker"
 )
 
 func TestLastUpdateTimesMap(t *testing.T) {

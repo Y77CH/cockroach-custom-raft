@@ -16,8 +16,8 @@ import (
 	"github.com/cockroachdb/cockroach/pkg/kv/kvserver/kvflowcontrol/kvflowcontrolpb"
 	"github.com/cockroachdb/cockroach/pkg/roachpb"
 	"github.com/cockroachdb/cockroach/pkg/util/timeutil"
-	"go.etcd.io/raft/v3"
-	rafttracker "go.etcd.io/raft/v3/tracker"
+	"github.com/Y77CH/raft"
+	rafttracker "github.com/Y77CH/raft/tracker"
 )
 
 // replicaFlowControl is a concrete implementation of the replicaForFlowControl
